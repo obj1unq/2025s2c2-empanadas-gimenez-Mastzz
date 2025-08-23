@@ -20,12 +20,13 @@ object galvan {
 object baigorria {
   var empanadasVendidas=0
   //var precioUnidad=15 ; en realidad precioUnidad es algo común al local de gimenez, no algo propio de baigorria (prefiero dejar el 15 como número mágico por ahora)
+  var totalCobrado=0
 
   method sueldo(){
     return empanadasVendidas * 15
   }
   method empanadasVendidas(){return empanadasVendidas}
-  method empanadasVendidas(_empanadasVendidas){
-    empanadasVendidas = empanadasVendidas + _empanadasVendidas
+  method venderEmpanadas(cantidad){
+    empanadasVendidas = empanadasVendidas + cantidad
   }
 }
