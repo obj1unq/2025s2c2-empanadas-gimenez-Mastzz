@@ -10,7 +10,7 @@ object galvan {
 }
 object baigorria {
   var empanadasVendidas=1
-  //const precioUnidad=15 ; en realidad precioUnidad es algo común al local, no algo propio de gimenez (prefiero dejar el 15 como número mágico)
+  //const precioUnidad=15 ; en realidad precioUnidad es algo común al local de gimenez, no algo propio de baigorria (prefiero dejar el 15 como número mágico)
 
   method sueldo(){
     return empanadasVendidas * 15
