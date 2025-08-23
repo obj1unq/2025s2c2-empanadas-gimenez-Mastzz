@@ -10,9 +10,9 @@ object galvan {
 }
 object gimenez {
   var empanadasVendidas=1
-  const precioUnidad=15
+  //const precioUnidad=15 ; en realidad precioUnidad es algo común al local, no algo propio de gimenez (prefiero dejar el 15 como número mágico)
 
   method sueldo(){
-    return empanadasVendidas * precioUnidad
+    return empanadasVendidas * 15
   } 
 }
