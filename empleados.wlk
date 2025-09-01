@@ -2,7 +2,7 @@
 object gimenez {
   var fondo=300000
 
-  method pagar(empleado) {
+  method pagarSueldo(empleado) {
     fondo = fondo - empleado.sueldo()
   }
   method fondo(){return fondo}
@@ -60,7 +60,7 @@ object baigorria {
     empanadasVendidas = 0
   }
   method empanadasVendidas(){return empanadasVendidas}
-  method venderEmpanadas(cantidad){
+  method vender(cantidad){
     empanadasVendidas = empanadasVendidas + cantidad
   }
 }
