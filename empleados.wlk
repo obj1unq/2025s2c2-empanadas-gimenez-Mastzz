@@ -4,6 +4,7 @@ object gimenez {
 
   method pagarSueldo(empleado) {
     fondo = fondo - empleado.sueldo()
+    empleado.cobrar()
   }
   method fondo(){return fondo}
 }
